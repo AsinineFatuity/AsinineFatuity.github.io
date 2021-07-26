@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<title>Kembo's_Notes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="css/style.css" class="css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+</style>
+<header class="w3-container w3-center w3-padding-32"> 
+  <img src="images/pic00.jpg" alt="logo" height="200" width="200"/>
+  <h1><b>MY NOTES</b></h1>
+  <p>Welcome to Kembo's notes. I try to write a little more on what I have learnt so far<span class="w3-tag"></span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+<!-- Blog entries -->
+<div class="w3-col l8 s12">  
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/vcontrol.png" alt="Version Control" style="width:100%">
+    <div class="w3-container">
+      <h3><b>VERSION CONTROL</b></h3>
+      <h5>Introduction to Version control comparing Git to Github <span class="w3-opacity">July 21, 2021</span></h5>
+    </div>
+    <div class="w3-container">
+      <p>Version control, also known as source control, is the practice of tracking and managing changes to software code. 
+        Version control systems are software tools that help software teams manage changes to source code over time. 
+        As development environments have accelerated, version control systems help software teams work faster and smarter.
+      </p> 
+            <h6><strong>Git</strong></h6>
+            <p>
+                Git is a distributed version control system where each user can make changes to an entire repository on their system. It uses command line and with git it’s easy to undo changes back and forth 
+                with a precise explanation of the changes that are made. It has the ability of:
+                <ol>
+                    <li>Keeping a track of the changes i.e. different versions of the same file.</li>
+                    <li>It also keeps a record of all the files present in a project.</li>
+                    <li>Comparing and analyzing different codes with a detailed explanation.</li>
+                </ol>
+                The basics concepts that are needful to be understood in Git are the following:
+                <ul>
+                    <li><strong>Local repository: </strong>this is the directory created on your local machine. code 
+                    written here is private until it is pushed to the remote repository.</li>
+                    <li><strong>Remote repository: </strong>this is the public repository or platform that hosts your code.
+                     We use Git, the version control, to push our code to the remote repository.
+                    </li>
+                </ul>
+            </p>
+            <h6><strong>Github</strong></h6>
+            <p>
+            Github is an online hosting platform for all the code that is pushed to it using Git. It has features that foster
+            collaboration by different software developers from whatever part of the world.
+            </p>
+      </div>
+    </div>
+  </div>
+  <!-- Blog entry -->
+  <div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="images/micro.jpg" alt="Micros" style="width:100%">
+    <div class="w3-container">
+      <h3><b>MICROPROCESSORS VERSUS MICROCONTROLLERS</b></h3>
+      <h5>To document the difference between microprocessors and microcontrollers<span class="w3-opacity"> July 21,2021</span></h5>
+    </div>
+    <div class="w3-container">
+      <p>Microcontroller and Microprocessor both terms seem similar but there is a huge difference between these two ICs.</p>
+        <h3 class="section-heading"><strong>Differences</strong></h3>
+        <p>
+          <ol>
+            <li>Microprocessors only have CPU in the chip and the rest connected externally while microcontrollers also have RAM, ROM and other peripherals along with the CPU or processor on a single chip</li>
+            <li>Microprocessors are used in an application where the task is not predefined thus assigned by the user while the microcontroller is designed for a specific task</li>
+            <li>Microprocessors have flexible structures as you can decide on the size of all the peripherals (RAM,ROM and number of I/O ports) while microcontrollers have a fixed structure once designed</li>
+            <li>Microprocessors have higher clock speeds (1GHz-4GHz) while microcontrollers have lower clock speeds (1MHz-300MHz)</li>
+            <li>Microprocessors require higher amount of memory (128GB-2TB) as they run operating systems and complicated tasks
+              while microcontrollers have less memory requirement (32KB-2MB) as they run specifically assigned tasks.
+            </li>
+            <li>The common peripheral interface for the microprocessor is USB, UART, and high-speed Ethernet while 
+              the microcontroller peripheral interface is I2C, SPI, and UART.</li>
+            <li>Microprocessors handle more binary data per cycle (32bits and 64 bits) compared to microcontrollers which handle
+              less (8bit,16bit or 32bit). 
+              This basically implies that the microprecossors have more data and address buses compared to microcontrollers
+            </li>
+            <li>The power consumption of a microprocessor is higher compared to microcontrollers</li>
+          </ol>
+        </p>
+        <h3 class="section-heading"><strong>Top 5 Most Used Microcontrollers and Microprocessors</strong></h3>
+        <style>
+          table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+         }
+         td, th {
+         border: 1px solid #dddddd;
+         text-align: left;
+        padding: 8px;
+       }
+       tr:nth-child(even) {
+      background-color: #dddddd;
+      }
+      </style>
+      <table>
+        <tr>
+          <th>MICROPROCESSORS</th>
+          <th>MICROCONTROLLERS</th>
+        </tr>
+        <tr>
+          <td>AMD Ryzen 9 5950X</td>
+          <td>STM32F103C8T6</td>
+        </tr>
+        <tr>
+          <td>Intel Core i9-10900K Processor</td>
+          <td>ATmega328</td>
+        </tr>
+        <tr>
+          <td>Nvidia</td>
+          <td>PIC16F877A</td>
+        </tr>
+        <tr>
+          <td>Qualcomm</td>
+          <td>Attiny85</td>
+        </tr>
+        <tr>
+          <td>Samsung</td>
+          <td>MSP430G2452</td>
+        </tr>
+      </table>
+      <h3 class="section-heading"><strong>Top 10 Kenyan Companies That Use Microcontrollers and Microprocessors</strong></h3>
+      <p>The following are the automated solutions industries that employ microcontrollers and microprocessors in Kenya:
+        <ul style="width:30%; float:left;">
+          <li>Gear Box</li> <li>Esystronika Ltd</li>
+          <li>The Nairobi Robotics</li> <li>Nerokas Engineering Solutions</li>
+          <li>Novatech Engineerics</li>  
+        </ul>
+        <ul style="width:30%; float:left;">
+          <li>Octrinsic Technologies Ltd</li>
+          <li>Lectrotel Microsystems</li> <li>Smart Embedded Systems Ltd</li>
+          <li>Maxtech Technology Solutions</li>  <li>Socabelec East Africa Ltd</li> 
+        </ul>
+      </p> 
+      </div>
+    </div>
+  </div>
+  <!-- Blog entry -->
+  <div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/mfauth.jpg" alt="Multi factor authentication" style="width:100%">
+      <div class="w3-container">
+        <h3><b>MULTI-FACTOR AUTHENTICATION</b></h3>
+        <h5>I shall specifically focus on two-factor authentication <span class="w3-opacity">July 23, 2021</span></h5>
+      </div>
+      <div class="w3-container">
+        <p>Multi-factor authentication is an electronic authentication method in which a user is granted access to a website or application
+          only after successfully presenting two or more pieces of evidence, called factors, to an authentication mechanism.
+          Multi-factor authentication encompasses two-factor authentication (abbreviated as 2FA).
+        </p>
+        <p>Essentially it entails the following:
+          <ul>
+            <li><strong>Knowledge Factor: </strong> This is something only the user of the system <strong>knows.</strong> It can be their password, pin or username. Essentially this the only typical factor for a single factor authentication (SFA)</li>
+            <li><strong>Possession Factor: </strong> This is something only the user of the system <strong>has.</strong> It analogically functions as a traditional key and thus can be a code sent to the user's phone. 
+            It can be sent as an email, or be a software token.</li>
+            <li><strong>Inherence Factor: </strong> This is something only the user of the system <strong>is.</strong> It can be their fingerprint, voice, iris or facial scans.</li>
+          </ul>
+        </p>
+        <h3 class="section-heading"><strong> How Does Multi-factor Authentication Work?</strong></h3>
+        <p>
+          Multi-factor authentication works by requesting additional layers of verification during sign-in. 
+          Users must verify their identities using at least two out of three different factors. Two factor
+          Authentication only requires two of the three factors mentioned above.
+        </p>
+        <h3 class="section-heading"><strong>Why Use Multi-factor Authentication?</strong></h3>
+        <p>
+          Traditionally, single factor authentication was employed. It was in the form of what the user knows (their password or user name).
+          However, due to the massive improvements to the computing and memory power of computers and processors, it has become increasingly easier for hackers 
+          to attack and penetrate password databases, or use sheer brute computing power to guess your password.
+          Single factor authentication hence is no longer as reliable or secure as proved by prevalent data leaks.
+        </p>
+        <p>Multi-factor Authentication therefore offers the following advantages:
+          <ul>
+            <li><strong>Improved reliability:</strong> Due to its added layer of security, it allows businesses to improve the reliability of 
+            their fraud prevention efforts, and defense against hacking, impersonation, and ID theft. This is also achieved in a cost-effective way</li>
+            <li><strong>Compliance with Regulation and Industry Best Practices:</strong> MFA allows businesses to comply with stipulated regulatory measures that ensure minimal
+            customer identity theft. The added layer of security also ensures compliance.</li>
+            <li><strong>Simplifying the Customer Identification Process:</strong> MFA helps businesses simplify their customer identification process and helps improve user experience. Through the additional layer of security, 
+               the burden for users and customers is decreased in terms of them verifying that they are who they say they are.</li>
+          </ul>
+        </p>
+        <h3 class="section-heading"><strong>Types of Two-factor Authentication</strong></h3>
+        <p>
+          The following are the comon types of Two factor authentication:
+          <ul>
+            <li><strong>SMS 2FA: </strong>When you enable a site’s SMS 2FA option, you’ll often be asked to provide a phone number. Next time you log in with your username and password, 
+              you’ll also be asked to enter a short code (typically 5-6 digits) that gets texted to your phone.</li>
+            <li><strong>Authenticator App/TOTP 2FA: </strong>The underlying technology for this kind of authentication is Time-Based One Time Password (TOTP) which is part of the Open Authentication
+            architecture (OATH). Authenticator App is still another phone-based option for 2FA and uses an application that generates codes locally based on a secret key. Typically, this will require 
+          one to scan a given QR code. Once you’ve scanned such a QR code, your authenticator application (such as Google Authenticator) will produce a new 6-digit code every 30 seconds. Similar to SMS 2FA, 
+          you’ll have to enter one of these codes in addition to your username and password in order to log in. The secret key is stored physically on your phone thus you can use them even when your phone is not connected to the mobile network.</li>
+          <li><strong>Push-based 2FA: </strong>Some systems send a prompt to one of your devices during login. This prompt will indicate that someone (possibly you) is trying to log in, 
+            and an estimated location for the login attempt. You can then approve or deny the attempt.</li>
+          <li><strong>FIDO U2F/Security Keys:</strong>This is is a relatively new style of 2FA, typically using small USB, NFC or Bluetooth Low Energy (BTLE) devices often called “security keys.” To set it up on a site, you register your U2F device. 
+            On subsequent logins, the site will prompt you to connect your device and tap it to allow the login.</li>
+          </ul>
+        </p>
+        <h3 class="section-heading"><strong>Companies That Use Two Factor Authentication</strong></h3>
+        <p>The following are top companies and organisations that use two-factor authentication:
+          <ul style="width:30%; float:left;">
+            <li>Amazon</li> <li>Apple</li> <li>Microsoft</li>
+          </ul>
+          <ul style="width:30%; float:left;">
+            <li>Github</li> <li>Google</li> <li>Facebook</li>
+          </ul>
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-- Blog entry -->
+  <div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/iot_protocol.png" alt="IoT Protocol" style="width:100%">
+      <div class="w3-container">
+        <h3><b>IoT COMMUNICATION PROTOCOLS</b></h3>
+        <h5>To explore the Common IoT Protocols, their characteristics and use cases <span class="w3-opacity">July 25, 2021</span></h5>
+      </div>
+      <div class="w3-container">
+        <p>Internet of things is the technology that allows the transmission of data and commands to and from devices in real time.
+          These devices are connected to each other through an online platform that both aggregates and analyzes the data. These end devices
+          use the communication protocols to communicate seamlessly without human intervention. The protocols discussed here are as follows:
+          <ul>
+            <li>Message Queue Telemetry Transport Protocol</li>
+            <li>Hypertext Transfer Protocol</li>
+            <li>Constrained Application Protocol</li>
+          </ul>
+          The above are listed in terms of their current popularity
+        </p>
+      <h3 class="section-header"><b>Message Queuing Telemetry Transport</b></h3>
+      <p>
+      MQTT is a publish-subcribe protocol where information is only sent once to a publish/subscribe server which then relays (retransmits)
+      the information to other subscribers. This communication pattern reduces the network traffic by half and communication occurs in an efficient manner.
+      It uses low bandwidth for communication thus suitable for remote areas and is also extremely lightweight.
+      </p>
+      <b>Characteristics of MQTT</b>
+      <p>
+      <ul>
+        <li>It does not require the client and server to establish connection at the same time.</li>
+        <li>It is a machine to machine protocol.</li>
+        <li>Allow clients to only subscribe to a narrow section of topics so that they only receive relevant information.</li>
+        <li>It provides real time communication and is thus fast.</li>
+      </ul> 
+      </p>     
+      <b>Architecture of MQTT</b>
+      <p>
+      These are briefly described by the components of MQQT as follows:
+      <ul>
+        <li><b>Message: </b>This is the data that is carried across the network and consists of payload data,
+        collection of properties, Quality of service and topic name.</li>
+        <li><b>Client: </b>A client can either publish data to a server or subscribe to a server so as to receive published data.</li>
+        <li><b>Server or Broker: </b>This is the device or program that allows the client to either publish or subscribe.his it does by processing
+        the requests to access these dual services.</li>
+        <li><b>Topic: </b>This is used to publish the message. In essence it is the label provided to the message for sorting 
+        by the server.</li>
+      </ul>
+      <img src="images/MQTT-Publisher-Subscriber.png" alt="mqqt-architecture" width="500">
+      </p>
+      <b>Applications of MQTT</b>
+      <p>
+        The MQTT protocol is the standard for all major cloud platforms, including Microsoft Azure, IBM Cloud, and Amazon Web Services. Facebook even uses MQTT for its Facebook Messenger and Instagram apps. 
+        For industrial applications, MQTT is especially well-suited for remote monitoring Internet of Things and Industrial Internet of Things (M2M).
+      </p>
+      <b>Disadvantages of MQTT</b>
+      <p>
+        <ul>
+          <li>MQTT uses TCP protocol for transport hence consumes additional power due to the handshakes and also 
+            the tendency for TCP connected devices to keep the sockets open for each other.</li>
+          <li>It is difficult to create a globally scalable MQTT network. This is due to its centralized broker that 
+            which adds overhead to each client device.
+          </li>
+          <li>It is difficult to implement flow control with it.</li>
+          <li>In order to use MQTT, clients must have and support TCP/IP</li>
+        </ul>
+      </p>
+    <h3 class="section-header"><strong>Hypertext Transfer Protocol</strong></h3>
+    <p>
+    This is the protocol that allows for the fetching of resources within the web and is the foundation of any data exchange
+    on the web. It operates on the client-server basis such that the requests to the server are initiated by the recipient (client)
+    which is usually the web browser. When a document is requested for say an HTML for example, the complete document will be 
+    reconstructed after the server fetches the associated sub documents such as videos,images,scripts, layout descriptions etc.
+    </p>
+    <b>Characteristics of HTTP</b>
+    <p>
+      <ul>
+        <li><b>Media Independent: </b>Any type of media can be sent alongside HTTP as long as the client and server can handle it.</li>
+        <li><b>Connectionless: </b>The client who initiates the request disconnects from the server once the request is sent and as they wait for the response.</li>
+        <li><b>Stateless: </b>The server and client are aware of each other during the current request only and they afterwards forget each other.
+        This therefore implies that neither the server or client can retain the information about different requests across different web pages.</li>
+      </ul>
+      Additionally, HTTP uses reliable TCP connection usually on port 80.
+    </p>
+    <b>Architecture of HTTP</b>
+    <p>
+      HTTP rides on the TCP protocol in the transport layer thus works in the commonly referred 3-way handshake manner . At first, clients send a SYN (Synchronous)packet to the server and then the web server will respond with SYN-ACK (Synchronous-Acknowledge)packet to confirm successful reception of previous packet. 
+      After this, the client again sends a ACK (Acknowledge) packet, and thus a connection is established. In addition, the client sends a HTTP request to the server for a resource and waits for it to respond to a request. 
+      The web server will then process the request, find the resource and send the response to the client. If no more resources are required by the client, it sends a FIN (Finish) packet to close the TCP connection.
+      <img src="images/http_architecture.png" alt="http-architecture" height="300">
+    </p>
+    <b>Applications of HTTP</b>
+    <p>
+    <ul>
+      <li>HTTP protocol is used in the World Wide Web to transmit data in the form of text, audio, images, and video from the Web Server to the user’s web browser and vice versa.</li>
+      <li>It is used in advanced microcontrollers and microprocessors such as Raspberry Pi to transmit data and communicate with other devices.</li>
+    </ul>
+    </p>
+  <b>Disadvantages of HTTP</b>
+  <p>
+    <ul>
+      <li>Unsuitable for small devices which find it heavy and superfluous since they do not need much interaction. HTTP 
+        also requires a minimum of nine TCP packets, and even more in case of packet loss.</li>
+      <li>Being fundamentally reqest-response structured, it does not support the event driven nature of most of the sensors.</li>
+      <li>Not real-time as the client has to wait after sending a request to the server. This causes latency. Additionally, This
+        synchronous manner of communication (instant reception of requested data, without scheduling or over time as in asynchronous modes)
+        weigh heavily on sensors limited computing resources.</li>
+    </ul>
+  </p>
+  <h3 class="section-header"><strong>Constrained Application Protocol</strong></h3>
+  <p>
+    Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use 
+    with constrained nodes (devices such as microcontrollers) and constrained networks in the Internet of Things. 
+  </p>
+  <b>Characteristics of CoAP</b>
+  <p>
+    <ul>
+      <li>Low overhead and very simple to parse.</li>
+      <li>Universal Resource Identifier (URI) and content-type support.</li>
+      <li>Proxy and caching capabilities.</li>
+      <li>Asynchronous message exchange.</li>
+      <li>Web protocol used in M2M with constrained requirements.</li>
+    </ul>
+  </p>
+  <b>Architecture of CoAP</b>
+  <p>
+    COAP uses User Datagram Protocol (UDP) as the underlying network protocol. COAP is basically a client-server IoT protocol where the client makes a request and the server sends back a response as it happens in HTTP. 
+    The methods used by COAP are the same used by HTTP. The protocol is designed for reliability in low bandwidth and high congestion through its low power consumption and low network overhead. 
+    In a network with a lot of congestion or limited connectivity, CoAP can continue to work where TCP-based protocols such as MQTT fail to exchange information and communicate effectively.
+  </p>
+  <p>
+    CoAP employs a two layers structure that. The bottom layer is a message layer that has been designed to deal with UDP and asynchronous switching. 
+    The request/response layer concerns communication methods and deals with request/response messages.
+  </p>
+  <img src="images/coap-architecture.webp" alt="coap-architecture"height="300">
+  <p><b>Applications of CoAP</b></p>
+  <p>
+    <ul>
+      <li>Best use case is in home communication networks as they are characteristically low cost and light weight.</li>
+      <li>It is also used for machine to machine communication.</li>
+    </ul>
+  </p>
+  <b>Disadvantages of CoAP</b>
+  <p>
+    <ul>
+      <li>Unreliable due to use of UDP hence some packets are lost or reach unordered.</li>
+      <li>It increases processing time as it acknowledges receipt of every message.</li>
+      <li>It is unencrypted, just like MQTT and thus raises the impelentation of the overhead.</li>
+    </ul>
+  </p>
+  <b>Other IoT Data Protocols</b> include Advnaced Message Queuing Protocol which is used for transactional messages
+  between servers such as in banks and Data Distribution Service used in advanced systems such as aerospace, and autonomous vehicles.
+    </div>
+    </div>
+    </div>
+    <!-- Blog entry -->
+  <div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="images/osi-model.png" alt="osi-model" style="width:100%">
+      <div class="w3-container">
+        <h3><b>OPEN SYSTEM INTERCONNECTION MODEL(OSI)</b></h3>
+        <h5>To briefly discuss the layers of the OSI model, <span class="w3-opacity">July 26, 2021</span></h5>
+      </div>
+      <div class="w3-container">
+        <p>
+          The OSI model is a conceptual framework used to generalize the understanding of any networking or telecommunication
+          system. The model uses layers (7 of them) to help give a visual description of what is going on with a particular networking system.
+          This simplifies the troubleshooting process.
+          I shall discuss the 7 layers from the bottom (physical) to top (application) layer:
+        </p> 
+        <b>Layer 1-Physical Layer</b>
+        <p>
+          This layer represents the electrical and physical representation of the system. It determines the mode of communication
+          (full or half duplex or simplex) and medium  of communication (wired or wireless). It also specifies the line configuration
+          (point to point or multipoint). It also determines the topology of the network (such as mesh, star, bus or combined). There are 
+          no specific protocols used here however. The electrical bit also includes the proper wiring and power supply to all the devices
+          such as computer and router.
+        </p>
+        <b>Layer 2-Data Layer</b>
+        <p>
+          The Data Link Layer provides node-to-node data transfer (between two directly connected nodes or devices), and also handles error correction from the physical layer.
+          It has two sub layers:
+          <ul>
+            <li><b>Medium Access Control (MAC):</b> this handles the encapsulation and framing and sequencing of data, error checking,
+            multiple access to the medium, resolves conflicts arising from multiple access and also resends data in case of 
+          packet loss. It also sits between the Logic Link Control and the top layers.</li>
+          <li><b>Logic Link Control (LLC):</b> this handles the logic of data transmission. This includes flow control, error control and the protocols.
+          Layer 2 protocols include Ethernet and Point-to-Point.</li>
+          </ul>
+        </p>
+        <b>Layer 3-Network Layer</b>
+        <p>
+        This layer mainly deals with the logical addressing and routing data by adding IP addresses, source and destination nodes. The protocols that 
+        are employed here are such as IP (one can use IPv4 or IPv6), Internet Control Message Protocol (used for connection checks)
+        and Internet Group Management Protocol (used for multicasting).
+        Network layer also maps different addressing schemes.
+        </p>
+        <b>Layer 4-Transport Layer</b>
+        <p>
+          This layer handles host to host communication. It mainly handles the segmentation of data received from the upper layers, numbers
+          every byte in the segment and ensures that data is sent in the same sequence that it was received (error control).
+          It uses two protocols to facilitate congestion control:
+          <ul>
+            <li><b>Transmission Control Protocol:</b> has 3-way handshake with acknowledgement feature and is connection oriented hence it is reliable but 
+            not suited for real time data transmission.</li>
+            <li><b>User Datagram Protocol:</b>  does not perform error and flow control and is thus faster and suitable for real time applications but is however
+            unreliable.</li>
+          </ul>
+        </p>
+        <b>Layer 5-Session Layer</b>
+        <p>
+          This sets up a session for two devices (computers or servers), coordinates (how long should a system wait for a response) 
+          and termination between the applications at each end of the session.
+        </p>
+        <b>Layer 6-Presentation Layer</b>
+        <p>
+          It represents the area that is independent of data representation at the application layer. It deals mainly with 
+          the translation of data from network to application format and from application to network format. Thus in essence "presents"
+          data to the network or application. This can involve encryption and decrpytion.
+        </p>
+        <b>Layer 7-Application Layer</b>
+        <p>
+          This is the layer closest to the users. It deals with the communication of the whole data message and thus provides an interface 
+          between network services and application programs. It also provides services to the end users such as file transfer and web browsing.
+          To achieve these asvanced operations it uses high level protocols such as <b>File Transfer Protocol (FTP), Hypertext Protocol (HTTP)</b> etc.
+        </p>
+        </div>
+      </div>
+    </div>
+<!-- Blog entry
+<div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+      <div class="w3-container">
+        <h3><b>BLOG ENTRY</b></h3>
+        <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+      </div>
+      <div class="w3-container">
+        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+          tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+        </p>
+        </div>
+      </div>
+    </div>
+   <-- Another Blog entry
+   <div class="w3-col l8 s12">
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+        <div class="w3-container">
+          <h3><b>BLOG ENTRY</b></h3>
+          <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+            tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+          </p>
+          </div>
+        </div>
+      </div>-->
+<!-- END BLOG ENTRIES -->
+</div>
+
+
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <p>Written by Asinine Fatuity &copy; 2021</p>
+</footer>
+</body>
+</html>
